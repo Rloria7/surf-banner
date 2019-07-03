@@ -1,0 +1,81 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background: rgb(146, 185, 221);
+}
+section{
+display: flex;
+position: relative;
+padding: 2em;
+margin: 5em auto;
+background: url(./bg1.jpeg);
+line-height: 1.5;
+width: 1000px;
+height: 550px;
+border-radius: 10px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow: 5px 5px 5px rgb(0,0,0,0.6);
+}
+footer p{
+font-size: 20px;
+}
+li a{
+color: #fff;
+font-size: 15px;
+}
+ul li{
+position: relative;
+justify-content: right;
+margin: 0;
+font-weight: 400;
+text-decoration: none;
+display: block;
+color: #fff;
+font-size: 15px;
+text-align: right;
+}
+li{
+font-size: 25px;
+font-weight: 500;
+color: #000;    
+}
+h1{
+color: rgb(216, 161, 89);
+text-shadow: rgba(0,0,0,0.7);   
+}
+h1:hover{
+color: antiquewhite;
+transition: all 0.5s;
+}
+.one{
+position: absolute;
+bottom: 0;
+right: 0;
+height: 320px;
+}
+.one img{
+width: 200px;
+height: 200px;
+border: 2px solid #fff;
+}
+.one i{
+position: absolute;
+right: 80px;
+bottom: 130px;
+color: #fff;
+cursor: pointer;
+}
+.one i:hover{
+color: #55a5d3;
+transition: all 0.5s ease;
+}
+.two{
+position: absolute;
+height: 250px;
+width: 350px;
+left: 0;
+bottom: 0;
+}
